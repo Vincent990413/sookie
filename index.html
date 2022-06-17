@@ -1,0 +1,290 @@
+
+    <!DOCTYPE html>
+    <html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Vincent & Sookie</title>
+        <meta name="author" content="Alvaro Trigo Lopez" />
+        <meta name="description" content="fullPage full-screen background videos." />
+        <meta name="keywords" content="fullpage,jquery,demo,screen,fullscreen,video,full-screen" />
+        <meta name="Resource-type" content="zzandgg" />
+        <link href="./imgs/love.svg" rel="shortcut icon">
+
+        <link rel="stylesheet" href="./css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+        <link rel="stylesheet" type="text/css" href="./css/fullpage.css" />
+        <link rel="stylesheet" href="./css/index.css">
+        <link rel="stylesheet" href="./css/animation.css">
+        <style>
+            .heart {
+                font-size: 100px;
+                color: #e00;
+                animation: beat .25s infinite alternate;
+                transform-origin: center;
+            }
+
+            /* Heart beat animation */
+            @keyframes beat {
+                to {
+                    transform: scale(1.4);
+                }
+            }
+
+            .button {
+                height: 100px;
+                width: 380px;
+
+                background-color: #a4cf6c;
+                border: none;
+                color: white;
+                padding: 15px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 40px;
+                margin: 4px 2px;
+                cursor: pointer;
+                -webkit-transition-duration: 0.4s;
+                /* Safari */
+                transition-duration: 0.4s;
+            }
+
+            .button2:hover {
+                box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- 播放mp3 -->
+        <audio loop="loop" autoplay="autoplay" id="bgm">
+            <source src="./mp3/bgmusic.mp3" type="audio/ogg" />
+        </audio>
+
+        <div id="fullpage">
+
+            <!-- our web -->
+            <div class="section" id="section0">
+                <div class="fp-bg-sec-1"></div>
+                <img src="./imgs/alex-and-cosmo-cute.gif" height="300px" />
+
+                <div class="content">
+                    <div class="tit slide-in-bck-top">水 欣 记</div>
+                    <div class="desc tracking-in-contract-bck" style="margin-top: 50px;font-size: 40px">
+                        “你在时，你是一切。你不在时，一切是你。”</div>
+                    <div class="heart">&#x2665;</div>
+                </div>
+            </div>
+
+            <!-- video -->
+            <div class="section" id="section1">
+                <div class="words hide-res" id='gaga-video-words'></div>
+                <div class="fp-bg-sec-1"> </div>
+                <img src="./imgs/ocean.gif" style="border-radius: 50%" height="400px" />
+
+                <div class="content">
+                    <div class="desc tracking-in-contract-bck" style="margin: 50px 0px;font-size: 40px">石头剪刀布，你出剪刀，我出布。
+                    </div>
+                    <div class="desc tracking-in-contract-bck" style="margin: 50px 0px;font-size: 40px">YOU MAKE
+                        SCISSORS, I WOULD MAKE PAPER. </div>
+
+
+                </div>
+            </div>
+
+            <!-- video -->
+            <div class="section" id="section2">
+                <div class="words hide-res" id="zz-video-words"></div>
+                <div class="fp-bg-sec-1"> </div>
+                <img src="./imgs/date.gif" style="border-radius: 50%" height="400px" />
+
+                <div class="content">
+                    <div class="desc tracking-in-contract-bck" style="margin: 50px 0px;font-size: 36px">
+                        可不可以把星期八出去玩，改成星期一去约会？佳欣。</div>
+                    <div class="desc tracking-in-contract-bck" style="margin: 50px 0px;font-size: 36px">LET US DATE
+                        INSTEAD OF FOR FUN, SOOKIE.</div>
+                </div>
+            </div>
+            <!-- 轮播图 -->
+            <div class="section" id="section3">
+                <div class="owl-carousel owl-theme">
+
+                    <div class="item item-1">
+                        <div class="right-part">
+                            <div class="show-pic">
+                                <img src="./imgs/sookie1.jpg" class="pic">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="item item-1">
+                        <div class="right-part">
+                            <div class="show-pic">
+                                <img src="./imgs/sookie2.jpg" class="pic">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item item-1">
+                        <div class="right-part">
+                            <div class="show-pic">
+                                <img src="./imgs/sookie3.jpg" class="pic">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item item-1">
+                        <div class="right-part">
+                            <div class="show-pic">
+                                <img src="./imgs/sookie4.jpg" class="pic">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item item-1">
+                        <div class="right-part">
+                            <div class="show-pic">
+                                <img src="./imgs/sookie5.jpg" class="pic">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="item item-1">
+                        <div class="right-part">
+                            <div class="show-pic">
+                                <img src="./imgs/sookie6.jpg" class="pic">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="item item-1">
+                        <div class="right-part">
+                            <div class="show-pic">
+                                <img src="./imgs/sookie7.jpg" class="pic">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item item-1">
+                        <div class="right-part">
+                            <div class="show-pic">
+                                <img src="./imgs/sookie8.jpg" class="pic">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item item-2">
+                        <div class="right-part">
+                            <div class="show-pic">
+                                <img src="./imgs/together-1.jpg" class="pic">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item item-4">
+                        <div class="right-part">
+                            <div class="show-pic">
+                                <img src="./imgs/stonegame.jpg" class="pic">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item item-5">
+                        <div class="right-part">
+                            <div class="show-pic">
+                                <img src="./imgs/dual.jpg" class="pic">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 自定义左右按钮 -->
+                <div class="nav-btn-custom" style="margin: 20px 20px;">
+                    <div class="owl-btn-pre-cus">
+                        <img style="height: 70px; width:70px;margin:0px 20px;" src="./imgs/owl/btn_pre.svg" alt=""
+                            srcset="">
+                    </div>
+                    <div class="owl-btn-next-cus">
+                        <img style="height: 70px; width:70px;margin:0px 20px;" src="./imgs/owl/btn_next.svg" alt=""
+                            srcset="">
+                    </div>
+                </div>
+            </div>
+
+            <!-- 相识计时器 -->
+            <div class="section" id="section4">
+                <div class="timer-main hide-res">
+                    <div class="tit">与你相识：</div>
+                    <div id="timer" style="height: 56px;width: 100vw;"></div>
+                </div>
+
+                <div class="words hide-res" id="zz-video-words"></div>
+                <div class="fp-bg-sec-1"> </div>
+                <img src="./imgs/shoulder.gif" style="border-radius: 50%" height="400px" />
+
+                <div class="content">
+                    <div class="desc tracking-in-contract-bck" style="margin: 50px 0px;font-size: 36px">
+                        细水长流，欣欣相印。
+                    </div>
+                    <div class="desc tracking-in-contract-bck" style="margin: 50px 0px;font-size: 36px">
+                        CUDDLE WITH EACH OTHER
+                    </div>
+                </div>
+            </div>
+
+            <!-- 总结话 -->
+            <div class="section" id="section5">
+                <!-- <div class="fp-bg-sec-5"></div> -->
+
+                <img src="./imgs/BigHug.gif" style="border-radius: 50%" height="400px" />
+                <div class="res-content hide-res" id="res-content" style="margin: 50px 0px;font-size: 40px">
+                    <div class="cont" style="margin: 50px 0px;font-size: 40px"> 哪怕我们会有争吵。</div>
+                    <div class="cont" style="margin: 50px 0px;font-size: 40px"> 也要紧紧地靠在一起，成为彼此温暖的光。</div>
+                </div>
+            </div>
+
+            <!-- 相爱计时器 -->
+            <div class="section" id="section6">
+                <div class="timer-main-love hide-res"></div>
+                <img src="./imgs/sunrise.gif" style="border-radius: 5%" height="400px" />
+
+                <div style="margin:20px 0px;font-size: 40px;">日出，</div>
+                <div style="margin:20px 0px;font-size: 40px;">拥抱事业，那是价值感。</div>
+
+                <div style="margin:20px 0px;font-size: 40px;">日落</div>
+                <div style="margin:20px 0px;font-size: 40px;">拥抱佳欣，那是归属感。</div>
+
+                <div class="content">
+                    <button class="button button2" onclick="fun()">播 放 视 频</button>
+                </div>
+
+                <script>
+                    function fun() {
+                    location.href = 'album.html';
+                }
+                </script>
+            </div>
+
+
+
+        </div>
+
+        <!-- 向下的箭头 -->
+        <svg class="arrow-down">
+            <path
+                d="M12 18c-.2 0-.5-.1-.7-.3l-11-10c-.4-.4-.4-1-.1-1.4.4-.4 1-.4 1.4-.1l10.4 9.4 10.3-9.4c.4-.4 1-.3 1.4.1.4.4.3 1-.1 1.4l-11 10c-.1.2-.4.3-.6.3z" />
+        </svg>
+
+        <!-- 顺序很重要 -->
+        <script type="text/javascript" src="./js/jquery.min.js"></script>
+        <script type="text/javascript" src="./js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="./js/fullpage.js"></script>
+        <script type="text/javascript" src="./js/index.js"></script>
+
+    </body>
+
+    </html>
